@@ -5,7 +5,7 @@ import io from 'socket.io-client';
 import { getDisplayStream } from '../helpers/media-access';
 import {ShareScreenIcon,MicOnIcon,MicOffIcon,CamOnIcon,CamOffIcon} from './Icons';
 
-class Video extends React.Component {
+class Video extends React.Component {//This is Video Component.
   constructor() {
     super();
     this.state = {

@@ -11,6 +11,7 @@ class App extends Component {
        <React.Fragment>
           <Route path="/" exact component={goToRoomInput}/>
           <Route path="/:roomId" exact component={Video}/>
+          <Route path="/chat:roomId" exact component={Video}/>
         </React.Fragment>
       </BrowserRouter>
     )
